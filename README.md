@@ -9,7 +9,7 @@ This project (July 2024) develops a deep Convolutional Neural Network (CNN) to d
 - Deploy a real-time pipeline for emotion detection with visualization of results.  
 
 ## Dataset
-The dataset used is likely **FER-2013** ([Kaggle link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)) containing:
+The dataset used is  **FER-2013** ([Kaggle link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)) containing:
 - **Images**: 35,887 grayscale images (48x48 pixels) split into training (28,709) and test (7,178) sets.  
 - **Labels**: Seven emotion classes – angry, disgust, fear, happy, sad, surprise, neutral.  
 - **Challenges**: Misaligned images, incorrect labels, and non-face images, addressed via preprocessing.  
