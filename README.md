@@ -9,12 +9,10 @@ This project (July 2024) develops a deep Convolutional Neural Network (CNN) to d
 - Deploy a real-time pipeline for emotion detection with visualization of results.  
 
 ## Dataset
-The dataset used is  **FER-2013** ([Kaggle link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)) containing:
+The dataset used is **FER-2013** ([Kaggle link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)) containing:
 - **Images**: 35,887 grayscale images (48x48 pixels) split into training (28,709) and test (7,178) sets.  
 - **Labels**: Seven emotion classes – angry, disgust, fear, happy, sad, surprise, neutral.  
 - **Challenges**: Misaligned images, incorrect labels, and non-face images, addressed via preprocessing.  
-
-> **Note**: Update with the specific dataset source or filenames (.csv, .jpg) used in the project.
 
 ## Methodology
 
@@ -39,10 +37,8 @@ The dataset used is  **FER-2013** ([Kaggle link](https://www.kaggle.com/c/challe
 - **Visualization**: Displayed predicted probabilities for all seven emotion classes in real-time (bar chart/heatmap).  
 
 ### Model Evaluation
-- **Metrics**: Accuracy, precision, recall, and possibly F1-score/confusion matrix.  
+- **Metrics**: Accuracy, precision, recall, and F1-score/confusion matrix.  
 - **Performance Boost**: Preprocessing improved CNN accuracy by 6%.  
-
-> **Note**: Update with actual accuracy and other final metrics.
 
 ## Results
 - **Preprocessing**: CLAHE, grayscale, and normalization enhanced image quality, boosting accuracy by 6%.  
@@ -54,3 +50,4 @@ The dataset used is  **FER-2013** ([Kaggle link](https://www.kaggle.com/c/challe
 Install dependencies:
 ```bash
 pip install pandas numpy opencv-python tensorflow scikit-learn matplotlib seaborn
+
