@@ -1,7 +1,7 @@
 # Facial Emotion Detection using CNN
 
 ## Project Overview
-This project (July 2024) develops a deep Convolutional Neural Network (CNN) to detect human emotions from facial images. The model classifies facial expressions into seven categories (**angry, disgust, fear, happy, sad, surprise, neutral**) and includes a real-time emotion detection pipeline, with applications in human-computer interaction, mental health monitoring, and customer experience analysis.
+This project (July 2025) develops a deep Convolutional Neural Network (CNN) to detect human emotions from facial images. The model classifies facial expressions into seven categories (**angry, disgust, fear, happy, sad, surprise, neutral**) and includes a real-time emotion detection pipeline, with applications in human-computer interaction, mental health monitoring, and customer experience analysis.
 
 ## Objectives
 - Preprocess facial images to enhance model performance.  
